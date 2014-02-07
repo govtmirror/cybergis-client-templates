@@ -6,9 +6,9 @@
 	"context":"{{context}}",
 	"pages":
 	{
-		"main":"{{page}}.html",
-		"thumbnail":"{{page}}-thumbnail.html",
-		"embed":"{{page}}-embed.html"
+		"main":"incidents.html",
+		"thumbnail":"incidents-thumbnail.html",
+		"embed":"incidents-embed.html"
 	},
 	"classification":"Unclassified",
 	"projection":"EPSG:900913",
