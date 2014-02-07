@@ -6,7 +6,7 @@
 			"name":"OSM",
 			"classification":"Unclassified",
 			"description":"OpenStreetMap is a free, editable map of the whole world.",
-			"type":"OSM
+			"type":"OSM"
 		},
 		"incidents":
 		{
