@@ -1,7 +1,7 @@
 OpenStreetMap Template, Version 1.0
 =========================
 
-| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |
+| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) |
 | ---- |  ---- | ---- |
 
 ## CyberGIS
