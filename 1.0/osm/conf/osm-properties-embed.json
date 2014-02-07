@@ -27,5 +27,6 @@
 			"middleText":"Names and boundary representation are not necessarily authoritative.<br>Basemap: Copyright <a href=\"http://openstreetmap.org/\">OpenStreetMap</a> contributors",
 			"rightText":"Basemap: Copyright <a href=\"http://openstreetmap.org/\">OpenStreetMap</a> contributors"
 		}
-	}
+	},
+	"baseLayers":["osm"]
 }
