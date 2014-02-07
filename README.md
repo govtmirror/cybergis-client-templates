@@ -2,7 +2,7 @@ cybergis-client-templates
 =========================
 
 | Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) |
-| ---- |  ---- | ---- |
+| ---- |  ---- | ---- | ---- |
 
 
 
