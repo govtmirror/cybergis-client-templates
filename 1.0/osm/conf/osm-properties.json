@@ -6,9 +6,9 @@
 	"context":"{{context}}",
 	"pages":
 	{
-		"main":"{{page}}.html",
-		"thumbnail":"{{page}}-thumbnail.html",
-		"embed":"{{page}}-embed.html"
+		"main":"osm.html",
+		"thumbnail":"osm-thumbnail.html",
+		"embed":"osm-embed.html"
 	},
 	"classification":"Unclassified",
 	"projection":"EPSG:900913",
