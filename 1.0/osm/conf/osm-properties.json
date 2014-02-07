@@ -29,6 +29,6 @@
 	"glossaries":
 	[
 		{"name":"glossary","label":"Glossary","delimiter":"\t","url":"glossaries/osm-glossary.tsv"}
-	]
+	],
 	"baseLayers":["osm"]
 }
