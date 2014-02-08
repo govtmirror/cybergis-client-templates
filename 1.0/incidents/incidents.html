@@ -6,7 +6,26 @@
 		<!-- CSS -->
 
 		<!-- JavaScript -->
-
+		<script type="text/javascript" language="Javascript">
+			var hiu =
+			{
+				'client': undefined,
+				'urls':
+				{
+					'library':
+					{
+						'proto': 'conf/osm-library-proto.json',
+						'carto': 'conf/osm-library-carto.json'
+					},
+					'app':
+					{
+						'properties': 'conf/incidents-properties.json',
+						'proto': 'conf/incidents-proto.json',
+						'carto': 'conf/incidents-carto.json'
+					}
+				}
+			};
+		</script>
 	</head>
 	<body>
 		<div id="{{element}}" style="position:absolute;top:0px;left:0px;bottom:0px;right:0px;"
@@ -14,29 +33,12 @@
 			data-map-control-zoom="yes"
 			data-map-track="yes"
 			data-map-nav="yes"
+			data-map-select="yes"
 		>
 		</div>
 		<script type="text/javascript" language="Javascript">
 			$(function()
 			{
-				var hiu =
-				{
-					'client': undefined,
-					'urls':
-					{
-						'library':
-						{
-							'proto': 'conf/incidents-library-proto.json',
-							'carto': 'conf/incidents-library-carto.json'
-						},
-						'app':
-						{
-							'properties': 'conf/incidents-properties.json',
-							'proto': 'conf/incidents-proto.json',
-							'carto': 'conf/incidents-carto.json'
-						}
-					}
-				};
 				hiu.client = new CyberGIS.Client("{{element}}","OpenLayers",hiu.urls,function(){console.log("Done Loading");},hiu,{});
 				hiu.client.init_begin();
 			});
