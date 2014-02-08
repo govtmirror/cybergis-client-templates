@@ -25,10 +25,10 @@
 			"rightText":"Basemap: Copyright <a href=\"http://openstreetmap.org/\">OpenStreetMap</a> contributors"
 		}
 	},	
-	"bookmarks": {"delimiter":"\t","url":"bookmarks/osm-bookmarks.tsv"},
+	"bookmarks": {"delimiter":"\t","url":"bookmarks/incidents-bookmarks.tsv"},
 	"glossaries":
 	[
-		{"name":"glossary","label":"Glossary","delimiter":"\t","url":"glossaries/osm-glossary.tsv"}
+		{"name":"glossary","label":"Glossary","delimiter":"\t","url":"glossaries/incidents-glossary.tsv"}
 	],
 	"baseLayers":["osm"],
 	"featureLayers":["incidents"]
