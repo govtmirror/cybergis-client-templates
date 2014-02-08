@@ -18,7 +18,8 @@
 			"minZoom":0,
 			"maxZoom":8,
 			"url":"data/incidents.geojson",
-			"select":true
+			"select":true,
+			"popup":true
 		}
 	}
 }
