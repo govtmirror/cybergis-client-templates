@@ -1,6 +1,47 @@
 {
 	"layers":
 	{
-
+		"incidents":
+		{
+			"popup":
+			{
+				"type":"advanced",
+				"title":
+				{
+					"base":"Title",
+					"suffix":" (Incident)"
+				},
+				"width":450,
+				"height":280,
+				"opacity":0.9,
+				"views":
+				[
+					{
+						"name":"overview",
+						"label":"Overview",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"Title","label":"Title"},
+							{"name":"location2","label":"Location"},
+							{"name":"Date Incident","label":"Date of Incident"}
+						]
+					},
+					{
+						"name":"links",
+						"label":"Links",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"type":"hr"},
+							{"label":"Google Maps","type":"app","app":"google"},
+							{"label":"OpenStreetMap","type":"app","app":"osm"}
+						]
+					}
+				]
+			}
+		}
 	}
 }
