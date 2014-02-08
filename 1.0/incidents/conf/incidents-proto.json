@@ -12,14 +12,27 @@
 		{
 			"name":"Incidents",
 			"classification":"Unclassififed",
-			"description":"{{description}}",
+			"description":"This layer contains dummy incidents data.  The contained herein is entirely unclassified.  The data is updated as needed.",
 			"type":"GeoJSON",
 			"projection":"EPSG:4326",
 			"minZoom":0,
-			"maxZoom":8,
+			"maxZoom":18,
 			"url":"data/incidents.geojson",
 			"select":true,
-			"popup":true
+			"popup":true,
+			"jit":
+			[
+				{
+					"type":"simple",
+					"refresh":{"init":true,"focus":false},
+					"tasks":
+					[
+						{"op":"concat","output":"location","input":["${City}",", ","${State}"]},
+						{"op":"concat","output":"location2","input":["${location}"]},
+						{"op":"concat","output":"location2","input":["${SubCity}"," in ","${location2}"],"where":{"op":"!=","field":"SubCity","value":""}}
+					]
+				}
+			]
 		}
 	}
 }
