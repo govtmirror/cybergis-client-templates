@@ -16,5 +16,30 @@
 			data-map-nav="yes"
 		>
 		</div>
+		<script type="text/javascript" language="Javascript">
+			$(function()
+			{
+				var hiu =
+				{
+					'client': undefined,
+					'urls':
+					{
+						'library':
+						{
+							'proto': 'conf/osm-library-proto.json',
+							'carto': 'conf/osm-library-carto.json'
+						},
+						'app':
+						{
+							'properties': 'conf/incidents-properties.json',
+							'proto': 'conf/incidents-proto.json',
+							'carto': 'conf/incidents-carto.json'
+						}
+					}
+				};
+				hiu.client = new CyberGIS.Client("{{element}}","OpenLayers",hiu.urls,function(){console.log("Done Loading");},hiu,{});
+				hiu.client.init_begin();
+			});
+		</script>
 	</body>
 </html>
