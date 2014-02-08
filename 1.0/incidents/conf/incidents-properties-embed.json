@@ -28,6 +28,11 @@
 			"rightText":"Basemap: Copyright <a href=\"http://openstreetmap.org/\">OpenStreetMap</a> contributors"
 		}
 	},
+	"apps":
+	[
+		{"name":"google","label":"Google Maps","classification":"Unclassified","description":"","url":{"page":"https://maps.google.com/maps?q=","delimiter":",","order":"y,x"}},
+		{"name":"osm","label":"OpenStreetMap","classification":"Unclassified","description":"","url":{"page":"http://www.openstreetmap.org/#map=","delimiter":"/","order":"z,y,x","precision":4}}
+	],
 	"baseLayers":["osm"],
 	"featureLayers":["incidents"]
 }
