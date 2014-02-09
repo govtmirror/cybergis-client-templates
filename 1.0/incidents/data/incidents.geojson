@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "ID": 1, "Title": "Drinking at Alcatraz", "Description": "On February 1, 2014 drinking happened at Alcatraz.  10 friends had a good time.", "Date Published": "2014-02-02", "Date Entered": "2014-02-05", "Date Incident": "2014-02-01", "Categories": "Drinking", "Country": "United States", "State": "California", "City": "San Francisco", "SubCity": "Alcatraz", "Latitude": 37.8271, "Longitude": -122.4229, "Good Time": 10, "Bad Time": 4 }, "geometry": { "type": "Point", "coordinates": [ -122.4229, 37.8271 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "ID": 2, "Title": "Surfing at Beach", "Description": "On February 2, 2014 surfing happened at beach.  5 dudes had a good time.", "Date Published": "2014-02-03", "Date Entered": "2014-02-05", "Date Incident": "2014-02-02", "Categories": "Surfing", "Country": "United States", "State": "California", "City": "Los Angeles", "SubCity": "Huntington Beach", "Latitude": 33.6653, "Longitude": -118.0091, "Good Time": 5, "Bad Time": 0 }, "geometry": { "type": "Point", "coordinates": [ -118.0091, 33.6653 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "ID": 3, "Title": "Chillin at Park", "Description": "On February 3, 2014 chillin happened at Park.  1 playa chilled.", "Date Published": "2014-02-04", "Date Entered": "2014-02-05", "Date Incident": "2014-02-03", "Categories": "Chillin", "Country": "United States", "State": "Colorado", "City": "Denver", "SubCity": "Park", "Latitude": 39.7395, "Longitude": -104.9866, "Good Time": 1, "Bad Time": 0 }, "geometry": { "type": "Point", "coordinates": [ -104.9866, 39.7395 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "ID": 4, "Title": "Happy Hour at lounge", "Description": "On February 4, 2014 A happy hour took place at a lounge.  20 colleagues had a good time, but 6 had a bad time.", "Date Published": "2014-02-05", "Date Entered": "2014-02-05", "Date Incident": "2014-02-04", "Categories": "Happy Hour,Networking", "Country": "United States", "State": "DC", "City": "Washington", "SubCity": "Lounge", "Latitude": 38.897, "Longitude": -77.0076, "Good Time": 20, "Bad Time": 6 }, "geometry": { "type": "Point", "coordinates": [ -77.0076, 38.897 ] } }
+
+]
+}

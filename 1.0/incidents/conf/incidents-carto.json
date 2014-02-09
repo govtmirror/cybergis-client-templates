@@ -29,6 +29,40 @@
 						]
 					},
 					{
+						"name":"description",
+						"label":"Description",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"categories_3","label":"Categories"},
+							{"name":"Description","label":"Description"}
+						]	
+					},
+					{
+						"name":"source",
+						"label":"Source",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"Date Published","label":"Date Published"},
+							{"name":"Source URL","label":"Source URL"}
+						]	
+					},
+					{
+						"name":"location",
+						"label":"Location",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"location3","label":"Location"},
+							{"label":"Latitude","type":"latitude"},
+							{"label":"Longitude","type":"longitude"}
+						]	
+					},
+					{
 						"name":"links",
 						"label":"Links",
 						"tab":{"classnames":"hiu-tab-1"},
@@ -41,6 +75,23 @@
 						]
 					}
 				]
+			},
+			"boxes":
+			{
+				"basic":
+				{
+					"title":"Experience",
+					"tasks":
+					[
+						{"op":"sum","output":"sum_good","input":"Good Time"},
+						{"op":"sum","output":"sum_bad","input":"Bad Time"}
+					],
+					"fields":
+					[
+						{"name":"sum_good","label":"Good Time"},
+						{"name":"sum_bad","label":"Bad Time"}
+					]
+				}
 			}
 		}
 	}

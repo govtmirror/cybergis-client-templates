@@ -1,0 +1,79 @@
+{
+	"library":
+	{
+		"templates":
+		{
+			"core":
+			{
+				"close":
+				{
+					"display":"",
+					"cursor":"pointer",
+					"fillColor":"#d92302",
+					"fillOpacity":1.0,
+					"strokeOpacity":1.0,
+					"strokeColor":"#000000",
+					"pointRadius":6
+				}
+			},
+			"logistics":
+			{
+				"airport":
+				{
+					"display":"",
+						
+					"fontSize":"18px",
+					"fontColor":"black",
+					"fontWeight":"bold",
+					"fontFamily":"helvetica",
+					"labelAlign":"l",
+					"labelXOffset":"30",
+					
+					"fillOpacity":1.0,
+					"strokeOpacity":1.0,
+					"pointRadius":10,
+					"cursor":"pointer",
+					"graphicWidth": 20,
+					"graphicHeight": 20
+				},
+				"port":
+				{
+					"display":"",
+						
+					"fontSize":"18px",
+					"fontColor":"black",
+					"fontWeight":"bold",
+					"fontFamily":"helvetica",
+					"labelAlign":"l",
+					"labelXOffset":"30",
+					
+					"fillOpacity":1.0,
+					"strokeOpacity":1.0,
+					"pointRadius":10,
+					"cursor":"pointer",
+					"graphicWidth": 20,
+					"graphicHeight": 20
+				},
+				"border_crossing":
+				{
+					"display":"",
+						
+					"fontSize":"18px",
+					"fontColor":"black",
+					"fontWeight":"bold",
+					"fontFamily":"helvetica",
+					"labelAlign":"l",
+					"labelXOffset":"30",
+					
+					"fillOpacity":1.0,
+					"strokeOpacity":1.0,
+					"pointRadius":10,
+					"cursor":"pointer",
+					"graphicWidth": 20,
+					"graphicHeight": 20
+				}
+			}
+		}
+	}
+}
+

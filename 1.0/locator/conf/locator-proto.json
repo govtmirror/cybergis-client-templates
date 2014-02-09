@@ -1,0 +1,41 @@
+{
+	"layers":
+	{
+		"osm":
+		{
+			"name":"OSM",
+			"classification":"Unclassified",
+			"description":"OpenStreetMap is a free, editable map of the whole world.",
+			"type":"OSM"
+		},
+		"locations":
+		{
+			"name":"Locations",
+			"classification":"Unclassififed",
+			"description":"This layer contains Natural Earth country captials.  The contained herein is entirely unclassified.  The data is updated as needed.",
+			"type":"GeoJSON",
+			"projection":"EPSG:4326",
+			"minZoom":0,
+			"maxZoom":18,
+			"url":"data/locations.geojson",
+			"select":true,
+			"popup":true,
+			"jit":
+			[
+				{
+					"type":"simple",
+					"refresh":{"init":true,"focus":false},
+					"tasks":
+					[
+						{"op":"concat","output":"name_search","input":["${name}"," (","${geonameid}",")"]},
+						
+						{"op":"concat","output":"sovereign","input":["${sov0name}"," (","${sov_a3}",")"]},
+						{"op":"concat","output":"location2","input":["${name}",", ","${adm0name}"]},
+						{"op":"concat","output":"location3","input":["${name}",", ","${adm0name}"]},
+						{"op":"concat","output":"location3","input":["${name}",", ","${adm1name}",", ","${adm0name}"],"where":{"op":"!=","field":"adm1name","value":""}}
+					]
+				}
+			]
+		}
+	}
+}

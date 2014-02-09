@@ -29,7 +29,14 @@
 					[
 						{"op":"concat","output":"location","input":["${City}",", ","${State}"]},
 						{"op":"concat","output":"location2","input":["${location}"]},
-						{"op":"concat","output":"location2","input":["${SubCity}"," in ","${location2}"],"where":{"op":"!=","field":"SubCity","value":""}}
+						{"op":"concat","output":"location2","input":["${SubCity}"," in ","${location2}"],"where":{"op":"!=","field":"SubCity","value":""}},
+						
+						{"op":"concat","output":"location3","input":["${City}",", ","${State}",", ","${Country}"]},
+						{"op":"concat","output":"location3","input":["${SubCity}"," in ","${location3}"],"where":{"op":"!=","field":"SubCity","value":""}},
+						
+						
+						{"op":"split","output":"categories_2","input":"Categories","delimiter":","},
+						{"op":"join","output":"categories_3","input":"categories_2","delimiter":", "}
 					]
 				}
 			]

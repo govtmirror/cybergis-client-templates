@@ -1,8 +1,16 @@
-OpenStreetMap Template, Version 1.0
+OpenStreetMap Example, Version 1.0
 =========================
 
-| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) |
-| ---- |  ---- | ---- | ---- |
+| Examples: | [OSM](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/locator) | [Logistics](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/logistics) | [MapStory](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/mapstory) | [MapBox](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/mapbox) |
+| ---- |  ---- | ---- | ---- | ---- | ---- | ---- |
+
+## Description
+
+The OSM CyberGIS client application allows users to quickly and easily browse OpenStreetMap.  The application also includes bookmarks.  This example application just has a basemap and is a very simple example for learning how to configure CyberGIS Client applications.
+
+**Template**
+
+The Locator CyberGIS client application is dervied from the locator template found [here](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator).
 
 ## CyberGIS
 The Humanitarian Information Unit has been developing a sophisticated geographic computing infrastructure referred to as the CyberGIS. The CyberGIS provides highly available, scalable, reliable, and timely geospatial services capable of supporting multiple concurrent projects.  The CyberGIS relies on primarily open source projects, such as PostGIS, GeoServer, GDAL, OGR, and OpenLayers.  The name CyberGIS is dervied from the term geospatial cyberinfrastructure.

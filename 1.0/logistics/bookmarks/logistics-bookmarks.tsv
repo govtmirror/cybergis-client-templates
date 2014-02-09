@@ -1,0 +1,6 @@
+name	label	type	latitude	longitude	zoom	layer	field	value
+full_extent	Full Extent	location	0	0	3	-	-	-
+1	Washington, USA	feature	-	-	12	locations	geonameid	4140963
+2	London, UK	feature	-	-	12	locations	geonameid	2643743
+3	Nairobi, Kenya	feature	-	-	14	locations	geonameid	184745
+3	Manila, Philippines	feature	-	-	14	locations	geonameid	1701668

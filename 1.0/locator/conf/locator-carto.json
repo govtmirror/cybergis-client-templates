@@ -1,0 +1,61 @@
+{
+	"layers":
+	{
+		"locations":
+		{
+			"popup":
+			{
+				"type":"advanced",
+				"title":
+				{
+					"base":"name",
+					"suffix":" (Location)"
+				},
+				"width":450,
+				"height":280,
+				"opacity":0.9,
+				"views":
+				[
+					{
+						"name":"overview",
+						"label":"Overview",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"name","label":"Name"},
+							{"name":"location2","label":"Location"},
+							{"name":"megacity","label":"Mega City"},
+							{"name":"sovereign","label":"Sovereign"}
+						]
+					},
+					{
+						"name":"location",
+						"label":"Location",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"location3","label":"Location"},
+							{"name":"geonameid","label":"GeoNameId"},
+							{"label":"Latitude","type":"latitude"},
+							{"label":"Longitude","type":"longitude"}
+						]	
+					},
+					{
+						"name":"links",
+						"label":"Links",
+						"tab":{"classnames":"hiu-tab-1"},
+						"type":"basic",
+						"attributes":
+						[
+							{"name":"geonameid","label":"GeoNames","type":"wiki","wiki":"geonames"},
+							{"label":"Google Maps","type":"app","app":"google"},
+							{"label":"OpenStreetMap","type":"app","app":"osm"}
+						]
+					}
+				]
+			}
+		}
+	}
+}

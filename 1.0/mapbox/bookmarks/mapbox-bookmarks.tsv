@@ -1,0 +1,6 @@
+name	label	type	latitude	longitude	zoom	layer	field	value
+full_extent	Full Extent	location	0	0	3	-	-	-
+washington	Washington, USA	location	38.8972	-77.0243	12	-	-	-
+london	London, UK	location	51.5129	-0.1269	12	-	-	-
+nairobi	Nairobi, Kenya	location 	-1.2802	36.8201	14	-	-	-
+tacloban	Tacloban, Philippines	location	11.2330	125.0070	14	-	-	-

@@ -1,8 +1,16 @@
-Incidents Template, Version 1.0
+Incidents Example, Version 1.0
 =========================
 
-| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) |
-| ---- |  ---- | ---- | ---- |
+| Examples: | [OSM](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/locator) | [Logistics](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/logistics) | [MapStory](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/mapstory) | [MapBox](https://github.com/state-hiu/cybergis-client-examples/blob/master/1.0/mapbox) |
+| ---- |  ---- | ---- | ---- | ---- | ---- | ---- |
+
+## Description
+
+The Incidents CyberGIS client application allows users to browse spatially over a list of incidents.
+
+**Template**
+
+The Incidents CyberGIS client application is dervied from the incidents template found [here](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents).
 
 ## CyberGIS
 The Humanitarian Information Unit has been developing a sophisticated geographic computing infrastructure referred to as the CyberGIS. The CyberGIS provides highly available, scalable, reliable, and timely geospatial services capable of supporting multiple concurrent projects.  The CyberGIS relies on primarily open source projects, such as PostGIS, GeoServer, GDAL, OGR, and OpenLayers.  The name CyberGIS is dervied from the term geospatial cyberinfrastructure.
