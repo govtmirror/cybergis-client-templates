@@ -1,9 +1,9 @@
 {
-	"element":"map_osm",
-	"name": "OpenStreetMap Example",
-	"title":"OpenStreetMap Example - HIU",
-	"domain":"http://state-hiu.github.io",
-	"context":"/cybergis-client-examples/1.0/osm",
+	"element":"{{element}}",
+	"name": "{{name}}",
+	"title":"{{name}} - {{organization}}",
+	"domain":"{{domain}}",
+	"context":"{{context}}",
 	"pages":
 	{
 		"main":"osm.html",
