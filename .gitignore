@@ -1,4 +1,5 @@
-*.swp
 *.cybergis
 .Trashes
 *~
+*.swp
+*.swo
