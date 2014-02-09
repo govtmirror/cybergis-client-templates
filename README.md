@@ -1,10 +1,8 @@
 cybergis-client-templates
 =========================
 
-| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) |
-| ---- |  ---- | ---- | ---- |
-
-
+| Templates: | [OSM](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/osm) |  [Incidents](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/incidents) |  [Locator](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/locator) | [Logistics](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/logistics) | [MapStory](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/mapstory) | [MapBox](https://github.com/state-hiu/cybergis-client-templates/blob/master/1.0/mapbox) |
+| ---- |  ---- | ---- | ---- | ---- | ---- | ---- |
 
 ## CyberGIS
 The Humanitarian Information Unit has been developing a sophisticated geographic computing infrastructure referred to as the CyberGIS. The CyberGIS provides highly available, scalable, reliable, and timely geospatial services capable of supporting multiple concurrent projects.  The CyberGIS relies on primarily open source projects, such as PostGIS, GeoServer, GDAL, OGR, and OpenLayers.  The name CyberGIS is dervied from the term geospatial cyberinfrastructure.
