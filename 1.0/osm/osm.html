@@ -49,7 +49,7 @@
 		</script>
 	</head>
 	<body>
-		<div id="map_osm" style="position:absolute;top:0px;left:0px;bottom:0px;right:0px;"
+		<div id="{{element}}" style="position:absolute;top:0px;left:0px;bottom:0px;right:0px;"
 			data-map-bookmarks="yes"
 			data-map-control-zoom="yes"
 			data-map-track="yes"
@@ -60,7 +60,7 @@
 		<script type="text/javascript" language="Javascript">
 			$(function()
 			{
-				hiu.client = new CyberGIS.Client("map_osm","OpenLayers",hiu.urls,function(){console.log("Done Loading");},hiu,{});
+				hiu.client = new CyberGIS.Client("{{element}}","OpenLayers",hiu.urls,function(){console.log("Done Loading");},hiu,{});
 				hiu.client.init_begin();
 			});
 		</script>
